@@ -2,7 +2,7 @@ import env from 'env-smart';
 import tmi, { ChatUserstate } from 'tmi.js';
 
 import { SpotifyService } from '@/spotify';
-import { envDirectory, getTrackIdFromLink, SPOTIFY_LINK_START } from '@/utils';
+import { envDirectory, getTrackIdFromLink, SPOTIFY_LINK_START } from '../utils';
 
 env.load({ directory: envDirectory });
 
