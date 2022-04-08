@@ -5,7 +5,7 @@ import fs from 'fs';
 import env from 'env-smart';
 import SpotifyWebApi from 'spotify-web-api-node';
 
-import { waitForCode, SpotifyAuth } from '../auth';
+import { SpotifyAuth, waitForCode } from '../auth';
 import { envDirectory } from '../utils';
 
 env.load({ directory: envDirectory });
